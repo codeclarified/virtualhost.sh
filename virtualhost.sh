@@ -282,7 +282,7 @@ open_command()
 create_virtualhost()
 {
   if [ ! -z $WILDCARD_ZONE ]; then
-    SERVER_ALIAS="ServerAlias $1.$WILDCARD_ZONE"
+    SERVER_ALIAS="ServerAlias *.$1"
   else
     SERVER_ALIAS="#ServerAlias your.alias.here"
   fi

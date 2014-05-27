@@ -689,7 +689,7 @@ fi
 if [ -z $WILDCARD_ZONE ]; then
   /bin/echo -n "Create http://${VIRTUALHOST}:${APACHE_PORT}/? [Y/n]: "
 else
-  /bin/echo -n "Create http://${VIRTUALHOST}.${WILDCARD_ZONE}:${APACHE_PORT}/? [Y/n]: "
+  /bin/echo -n "Create http://${VIRTUALHOST}:${APACHE_PORT}/? [Y/n]: "
 fi
 
 if [ -z "$BATCH_MODE" ]; then

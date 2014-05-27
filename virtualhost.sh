@@ -215,7 +215,7 @@ ALWAYS_CREATE_LOGS="yes"
 
 # By default, log files will be created in DOCUMENT_ROOT/logs. If you wish to
 # override this to a static location, you can do so here.
-#LOG_FOLDER="/var/log/httpd"
+LOG_FOLDER="/var/log/httpd"
 # If you want your logs in your document root, uncomment the following
 #LOG_FOLDER="__DOCUMENT_ROOT__/logs"
 
